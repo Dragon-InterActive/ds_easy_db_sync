@@ -1,0 +1,29 @@
+name: ds_easy_db_sync
+description: "Optional offline-first synchronization engine for the ds_easy_db ecosystem: dirty tracking, delta push/pull, conflict resolution and soft-delete."
+version: 0.1.0
+homepage: https://github.com/Dragon-InterActive/ds_easy_db_sync
+repository: https://github.com/Dragon-InterActive/ds_easy_db_sync
+issue_tracker: https://github.com/Dragon-InterActive/ds_easy_db_sync/issues
+topics:
+  - offline-first
+  - sync
+  - database
+  - cache
+  - persistence
+license: BSD-3-Clause
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.44.9'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ds_easy_db: ^1.1.1
+  ds_sync_contract: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
